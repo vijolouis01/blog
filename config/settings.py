@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blogs'
 ]
 
 MIDDLEWARE = [
@@ -119,6 +120,9 @@ STATIC_ROOT = '/static'
 STATICFILES_DIRS= [
     'config/static',
 ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 
 # Email
